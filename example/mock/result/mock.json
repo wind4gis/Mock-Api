@@ -1,0 +1,53 @@
+{
+  "errorCode": 0,
+  "errorMsg": "成功",
+  "result": {
+    "datas": [
+      {
+        "refundSn": "r1",
+        "orderSn": "o1",
+        "id": 7878,
+        "createTime": 1585392723,
+        "refundStatusStr": "待审核",
+        "refundNumber": 1,
+        "orderProduct": {
+          "productName": "商品1",
+          "productId": 1,
+          "specInfo": "红色",
+          "masterImg": "https://1.jpg",
+          "singlePayMoney": 10,
+          "uid": "u1",
+          "productNum": "1"
+        },
+        "refundMoney": 10,
+        "refundTypeStr": "仅退款",
+        "refundLogisticsMoney": 0
+      },
+      {
+        "refundSn": "r2",
+        "orderSn": "o2",
+        "id": 2,
+        "createTime": 1585392723,
+        "refundStatusStr": "待审核",
+        "refundNumber": 1,
+        "orderProduct": {
+          "productName": "商品1",
+          "productId": 1,
+          "specInfo": "红色",
+          "masterImg": "https://1.jpg",
+          "singlePayMoney": 10,
+          "uid": "u2",
+          "productNum": "1"
+        },
+        "refundMoney": 10,
+        "refundTypeStr": "仅退款",
+        "refundLogisticsMoney": 0
+      }
+    ],
+    "pageOffset": 1,
+    "pageSize": 5,
+    "totalRecord": 10,
+    "totalPage": 2
+  },
+  "success": true
+}

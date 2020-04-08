@@ -1,0 +1,60 @@
+{
+  "errorCode": 0,
+  "errorMsg": "成功",
+  "success": true,
+  "result": {
+    "refundTypeList": [
+      {
+        "code": 1,
+        "value": "仅退款",
+        "refundReasons": [
+          {
+            "key": "200",
+            "value": "签收异常/本人未收到货"
+          },
+          {
+            "key": "201",
+            "value": "商品完全破损"
+          },
+          {
+            "key": "202",
+            "value": "漏发商品"
+          },
+          {
+            "key": "203",
+            "value": "生鲜水果完全变质"
+          }
+        ]
+      },
+      {
+        "code": 2,
+        "value": "退货退款",
+        "refundReasons": [
+          {
+            "key": "100",
+            "value": "7天无理由退款"
+          },
+          {
+            "key": "101",
+            "value": "多拍/拍错"
+          }
+        ]
+      }
+    ],
+    "orderSn": "o1",
+    "uid": "u1",
+    "refundProductCash": 100,
+    "curRefundNum": 1,
+    "minRefundNum": 1,
+    "maxRefundNum": 5,
+    "refundFreightCash": 6,
+    "refundTaxCash": 0,
+    "orderProduct": {
+      "orderProduct": "商品名称",
+      "masterImg": "https://1.jpg",
+      "singlePayMoney": 60,
+      "productNum": 5,
+      "specInfo": "商品规格"
+    }
+  }
+}
